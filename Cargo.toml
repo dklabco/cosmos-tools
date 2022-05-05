@@ -5,3 +5,6 @@ authors = ["dk <dk@dklab.co>"]
 
 [lib]
 crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
