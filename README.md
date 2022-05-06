@@ -1,3 +1,6 @@
+This whole project is under active development. Incorrect or complete lack of features are expected.
+Please feel free to reach out to the maintainer(s) when in doubt, thank you!
+
 # What
 
 This repo is intended to be a collection of tools to interact with any Cosmos-compatible Blockchain, e.g. "retrieving a list of validator nodes for a specific chain".
