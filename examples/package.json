@@ -1,0 +1,9 @@
+{
+  "name": "cosmos_tools_examples",
+  "version": "0.1.0",
+  "description": "examples using the wasm-pack generated artifacts",
+  "scripts": {
+    "start": "node main.mjs",
+    "throw": "node --experimental-wasm-modules main.direct.mjs"
+  }
+}
