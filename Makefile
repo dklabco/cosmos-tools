@@ -2,4 +2,8 @@ build:
 	wasm-pack build --target nodejs
 
 start:
-	node --experimental-wasm-modules userland/main.mjs
+	node userland/main.mjs
+
+# this throws on purpose
+throw:
+	node --experimental-wasm-modules userland/main.direct.mjs
