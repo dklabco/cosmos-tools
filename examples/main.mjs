@@ -5,8 +5,13 @@
  * will be available in the `import`ed JS library. See more below.
  */
 
-import * as lib from "../pkg/cosmos_tools.js";
+import * as lib from "../dist-node/cosmos_tools.js";
 
-console.log(lib); // prints some of the inner details of the imported js module
+// console.log(lib);
+// lib.unsupportedMethod1();
+// lib.unsupportedMethod2();
+// lib.main();
 
-lib.bark_at("Cosmos"); // prints "wuf, Cosmos"
+lib.setup(process.env);
+
+console.log("script finished");

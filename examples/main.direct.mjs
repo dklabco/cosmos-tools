@@ -4,6 +4,8 @@
  * @NOTE THIS DOES NOT WORK - at least with the toolchain we have at writing time
  */
 
-import * as lib from "../pkg/cosmos_tools_bg.wasm";
+import * as lib from "../dist-node/cosmos_tools_bg.wasm";
 
 console.log(lib);
+
+console.log("script finished");
