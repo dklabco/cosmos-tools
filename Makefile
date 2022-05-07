@@ -18,3 +18,9 @@ throw:
 # this requires Deno to have been installed (https://deno.land/#installation)
 deno:
 	deno run --allow-read --allow-env examples/main.deno.ts
+
+################################################################################
+# utilities and educational examples
+#
+std-env-vars:
+	node examples/_lab_/std-env-vars.mjs
